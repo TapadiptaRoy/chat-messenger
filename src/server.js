@@ -1,4 +1,4 @@
-require("dotenv").config(); // Load environment variables
+require("dotenv").config();
 
 const app = require("./app"); // Import express app
 const PORT = process.env.PORT || 5000;
